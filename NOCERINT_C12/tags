@@ -1,0 +1,21 @@
+Mclient	client.c	/^int main(int argc, char *argv[])$/
+Mencrypt	encrypt.c	/^int main (int argc, char *argv[])$/
+Mserver	server.c	/^int main(int argc, char *argv[])$/
+convert_hex	encrypt.c	60
+convert_hex	encrypt.c	62
+convert_hex	encrypt.c	63
+convert_hex	encrypt.c	65
+convert_hex	encrypt.c	66
+encrypt	encrypt.c	/^int encrypt(char [3]argv[9],char [9]encrypted)$/
+encrypt	encrypt.c	64
+encrypt	encrypt.c	70
+encrypt	encrypt.c	79
+encrypt	encrypt.c	80
+encrypt	encrypt.c	81
+encrypt	encrypt.c	82
+encrypt	encrypt.c	89
+error	client.c	/^void error(const char *msg)$/
+error	server.c	/^void error(const char *msg)$/
+key	encrypt.c	67
+temp	encrypt.c	77
+temp2	encrypt.c	78
